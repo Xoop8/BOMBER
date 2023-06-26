@@ -1,0 +1,116 @@
+#gameContainer {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    background-image: url('img/map3.jpg');
+
+position:relative;
+overflow: hidden;
+}
+
+#player {
+width: 40px;
+height: 40px;
+background-image: url('img/1.png');
+background-size: 100%;
+background-position: center;
+position:absolute;
+z-index: 2;
+left: 70px;
+top: 100px;
+}
+#player2 {
+    width: 40px;
+    height: 40px;
+    background-image: url('img/1.png');
+    background-size: 100%;
+    background-position: center;
+    position:absolute;
+    z-index: 2;
+    left: 680px;
+    top: 100px;
+    }
+
+#ennemy{
+width: 40px;
+height: 56px;
+background-image: url('img/alienBlue.png') ;
+background-size: 100%;
+background-position: center;
+position:absolute;
+z-index: 2;
+left: 680px;
+top: 700px;
+animation-name: sprite; 
+animation-duration: 1.5s;
+animation-timing-function: steps(6);
+animation-iteration-count: infinite;
+}
+
+img{
+    width: 60px;
+    height: 65px;
+}
+
+.stone{
+    position: relative;
+    left: 380px;
+    top: 250px;
+    width: 60px;
+
+}
+
+.stone2{
+    position: relative;
+    left: 500px;
+    top: 350px;
+    width: 60px;
+}
+
+.stone3{
+    position: relative;
+    left: 180px;
+    top: 450px;
+    width: 60px;
+}
+
+
+.stone4{
+    position: relative;
+    left:680px;
+    top: 350px;
+    width: 60px;
+}
+
+
+.stone5{
+    position: relative;
+    left: 380px;
+    top: 250px;
+    width: 60px;
+    
+}
+.stone6{
+    position: relative;
+    left: 480px;
+    top: 350px;
+    width: 60px;
+}
+.stone7{
+    position: relative;
+    left: 40px;
+    top: 50px;
+    width: 60px;
+}
+.stone8{
+    position: relative;
+    left: 40px;
+    top: -50px;
+    width: 60px;
+}
+.stone9{
+    position: relative;
+    left: 153px;
+    top: 55px;
+    width: 60px;
+}
